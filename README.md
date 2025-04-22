@@ -1,4 +1,4 @@
-#Overview
+# Overview
 
 In this assignment, you will explore a dataset containing over one million personal loans
 originated between 2008 and 2017 on LendingClub. The dataset includes detailed loan
@@ -7,40 +7,40 @@ income), and loan outcomes (e.g., early default and return). Your task is to ana
 build linear models, and make predictions of returns on the test set.
 
 
-##Description
+## Description
 
 Requirements
 
-#1. Exploratory Data Analysis
+# 1. Exploratory Data Analysis
 Perform exploratory data analysis to understand the patterns and relationships within the dataset. Your analysis should include:
 
 Report the summary statistics, such as average, minimum, maximum, for key variables.
 Histograms, scatter plots, and box plots for key variables.
 Correlation plots to assess relationships between features.
 
-#2. Data Preprocessing
+# 2. Data Preprocessing
 
-#2.1 Sampling**
+# 2.1 Sampling**
 You are required to further sample the training data into training and validation sets.
 
-#2.2 Handling Missing values
+# 2.2 Handling Missing values
 Missing data is present in the dataset. You may choose to either impute missing values or filter out incomplete observations. Justify your choice of approach (e.g., forward filling, backward filling, or mean).
 
-#2.3 Feature Engineering
+# 2.3 Feature Engineering
 Generate at least one interaction term and one nonlinear (e.g., quadratic) term. Provide justification for the chosen interaction/nonlinear terms and examine whether they are statistically significant in your model.
 Scale the numerical features using either standardization or normalization techniques. Explain how it improves the dataset for machine learning models.
 Apply one-hot encoding and label encoding to transform qualitative features into numerical features.
 
-#3. Model
+# 3. Model
 
-#3.1 Linear Regression Model
+# 3.1 Linear Regression Model
 
 Fit a simple linear regression model to predict the loan return. Report the in-sample and out-of-sample R-squared.
 
-#3.2 Regularized Regression Model: Lasso Regression, Ridge Regression, and Elastic Nets
+# 3.2 Regularized Regression Model: Lasso Regression, Ridge Regression, and Elastic Nets
 Fit Lasso regression, Ridge regression, and Elastic Nets to predict the loan return. Select the hyperparameters using the results in the validation set. Report the in-sample and out-of-sample R-squared.
 
-#4. Predicting on the Test Set
+# 4. Predicting on the Test Set
 Use your best regression (including the hyperparameters) to predict the outcomes for the test set (lc_loan_test.csv). Replace the values in submission_test.csv for the columns:
 
 return: Your regression predictions for loan returns.
