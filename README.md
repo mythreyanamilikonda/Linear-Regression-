@@ -9,7 +9,7 @@ build linear models, and make predictions of returns on the test set.
 
 # Description
 
-Requirements
+## Requirements
 
 ## 1. Exploratory Data Analysis
 Perform exploratory data analysis to understand the patterns and relationships within the dataset. Your analysis should include:
